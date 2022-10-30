@@ -1,12 +1,56 @@
-h1{
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 
 body{
     background-image: url("https://wallpapercave.com/wp/wp2762609.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+      
 }
-.box{
-    background-color: white;
+
+
+.box1 {
+    
+    text-align: left;
+    font-family: 'Island Moments', cursive;
+    color: white;
+    margin-left: 40px;
+    font-size: xx-large;
+    border: 2px;
+
+}
+.box2{
     text-align: center;
+    margin-right: 20px;
+    font-size: small;
+    color: rgb(7, 61, 7);
+    position: relative; top: -450px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poor Story', cursive;
+    background-color: white;
+    float: right;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;
+    margin-left: 20px;
+}
+
+.job{
+    text-align: left;
+    color: white;
+    position: relative; top: -30px;
+    margin-left: -10px;
+   }
+
+   .SocialMedia{
+    text-align: center;
+    font-size: x-large;
+    position: relative; top: -150px;
 }
